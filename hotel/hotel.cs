@@ -16,5 +16,16 @@ namespace hotel
         {
             InitializeComponent();
         }
+
+        private void btn_n1_Click(object sender, EventArgs e)
+        {
+            int giorni;
+            string stanza, stagione;
+
+            if (cmb_n1.SelectedItem == null || cmb_n2.SelectedItem == null)
+            {
+                
+            }
+        }
     }
 }
